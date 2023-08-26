@@ -78,5 +78,5 @@ type Header struct {
 type Item struct {
 	PurchaseRequisition      int     `json:"PurchaseRequisition"`
 	PurchaseRequisitionItem  int	 `json:"PurchaseRequisitionItem"`
-	IsCancelled        	 	 *bool     `json:"IsCancelled"`
+	IsCancelled        	 	 *bool   `json:"IsCancelled"`
 }
